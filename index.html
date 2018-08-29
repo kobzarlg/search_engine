@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Engine</title>
+</head>
+<link href="css/style.css" rel="stylesheet">
+<script src="js/script.js" charset="utf-8"></script>
+<body>
+
+  <div class="block block-control">
+    <input type="text" class="input input-search" autocomplete="false" placeholder="Введите текст для поиска">
+    <select class="input input-engine">
+      <option value="">Укажите поисковую систему</option>
+      <option value="google">Google</option>
+      <option value="bing">Bing</option>
+      <option value="ask">Ask</option>
+    </select>
+    <button type="button" class="input input-button" onclick="submit()">Искать</button>
+  </div>
+
+  <div class="block block-error">
+  </div>
+
+</body>
+</html>
